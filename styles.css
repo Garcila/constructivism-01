@@ -97,10 +97,13 @@ Style
 }
 
 .square__slanted-text {
+  font-family: 'Russo One', sans-serif;
+  font-size: 0.5rem;
   display: flex;
   grid-area: 2 / 1 / 3 / 2;
   align-items: flex-end;
-  transform: rotate(-20deg);
+  justify-content: center;
+  transform: rotate(-35deg);
   font-weight: bold;
   text-transform: capitalize;
   color: var(--black-dark);
@@ -131,9 +134,9 @@ Style
 }
 
 .bottom-text__down {
-  transform: rotate(20deg);
+  transform: translateY(20px) rotate(58deg);
 }
 
 .bottom-text__up {
-  transform: rotate(-20deg);
+  transform: translateX(11px) rotate(-30deg);
 }
